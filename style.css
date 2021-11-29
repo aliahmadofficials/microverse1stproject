@@ -1,0 +1,235 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 , h2 , h3 , p{
+	font-family: Poppins;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/*-----------------------------------HEADER---------------------------------------*/
+
+.nav{
+	background: #BF3044;
+    width: auto;
+	margin: 0px;
+	padding: 0% 5% 0%;
+	display: flex;
+}
+
+.inner-section1{
+	box-sizing: border-box;
+	width: 20%;
+	padding: 0px;
+	margin: 0px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.logo{
+	margin: 0px;
+	color: white;
+}
+
+.inner-section2{
+	box-sizing: border-box;
+	width: 80%;
+	padding: 0px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+ul{
+	list-style-type: none;
+}
+
+li{
+	display: inline-block;
+	
+}
+
+li a{
+	font-family: Poppins;
+	font-size: 16px;
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding: 10px 20px;
+}
+
+li a:hover{
+	background: blue;
+}
+
+
+/*-----------------------------------HERO SECTION START---------------------------------------*/
+
+
+.hero-section{
+	background: #1F2937;
+	margin: 0px;
+	padding: 12% 5%;
+	display: flex;
+	justify-content: space-between;
+}
+
+/*-------------------------------*/
+
+.inner-hero-section{
+	width: 100%;
+	padding: 5% 5% 5% 0%;
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+}
+
+.inner-hero-section h2{
+	font: normal 600 48px Poppins;
+	line-height: 58px;
+	color: white;
+	margin: 0px;
+    text-align: center;
+}
+
+.inner-hero-section p{
+	font: normal 300 22px Poppins;
+	line-height: 28px;
+	color: white;
+	margin: 10px 0px;
+    text-align: center;
+}
+
+
+
+/*-----------------------------------SERVICES SECTION START---------------------------------------*/
+
+
+.services-section{
+	width: 100%;
+	padding: 5%;
+	box-sizing: border-box;
+    background-color: #44567D;
+}
+
+.heading-section{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.heading-section h2{
+	font-size: 40px;
+	line-height: 50px;
+    text-decoration: underline;
+    text-transform: capitalize;
+    color: white;
+}
+
+.box-main-section{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	box-sizing: border-box;
+}
+
+
+.box1{
+	width: 33.3%;
+	padding: 0px;
+	margin: 3% 3% 0% 3%;
+	box-sizing: border-box;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    
+    
+    background-color: #303841;
+}
+
+.box1 img{
+	width: 350px;
+	height: 400px;
+}
+
+.box1 h3{
+	color: white;
+	margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/*-----------------------------------LAST SECTION START---------------------------------------*/
+
+
+.Last-first-section{
+	background: #1F2937;
+    width: auto;
+    height: auto;
+	margin: 0px;
+	padding: 8% 5%;
+}
+
+/*-------------------------------*/
+
+.inner-first-section{
+	width: 100%;
+	padding: 5% 5% 5% 0%;
+}
+
+.inner-first-section h2{
+	font: normal 600 60px Poppins;
+	line-height: 80px;
+	color: white;
+	margin: 0px;
+    text-align: center;
+}
+
+.inner-first-section p{
+	font: normal 300 18px Poppins;
+	line-height: 28px;
+	color: white;
+    font-style: italic;
+	margin: 10px 0px;
+    text-align: center;
+}
+
+
+.Last-second-section{
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0px;
+	display: flex;
+	justify-content: center;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ li{
+	display: inline-block;
+	
+}
+
+ li a{
+	font-family: Poppins;
+	font-size: 16px;
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding: 10px 20px;
+    align-self: center;
+}
+
+
+
